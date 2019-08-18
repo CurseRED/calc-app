@@ -7,16 +7,17 @@
     android:weightSum="7">
 
     <TextView
+        android:id="@+id/text"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
         android:background="@color/colorPrimary"
         android:gravity="end|center_vertical"
+        android:maxLines="1"
         android:padding="16dp"
         android:textColor="@color/textColor"
         android:textSize="48sp"
-        tools:text="2+2"
-        android:maxLength="14"/>
+        tools:text="2+2" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,18 +27,22 @@
         android:weightSum="4">
 
         <Button
+            android:id="@+id/btnDeleteAll"
             style="@style/ButtonStyle"
             android:text="C" />
 
         <Button
+            android:id="@+id/btnPlusMinus"
             style="@style/ButtonStyle"
             android:text="+/-" />
 
         <Button
+            android:id="@+id/btnPercent"
             style="@style/ButtonStyle"
             android:text="%" />
 
         <Button
+            android:id="@+id/btnDivide"
             style="@style/ButtonStyle"
             android:background="@drawable/side_button_background"
             android:text="/" />
@@ -53,18 +58,22 @@
         android:weightSum="4">
 
         <Button
+            android:id="@+id/btnSeven"
             style="@style/ButtonStyle"
             android:text="7" />
 
         <Button
+            android:id="@+id/btnEight"
             style="@style/ButtonStyle"
             android:text="8" />
 
         <Button
+            android:id="@+id/btnNine"
             style="@style/ButtonStyle"
             android:text="9" />
 
         <Button
+            android:id="@+id/btnPlus"
             style="@style/ButtonStyle"
             android:background="@drawable/side_button_background"
             android:text="+" />
@@ -80,18 +89,22 @@
         android:weightSum="4">
 
         <Button
+            android:id="@+id/btnFour"
             style="@style/ButtonStyle"
             android:text="4" />
 
         <Button
+            android:id="@+id/btnFive"
             style="@style/ButtonStyle"
             android:text="5" />
 
         <Button
+            android:id="@+id/btnSix"
             style="@style/ButtonStyle"
             android:text="6" />
 
         <Button
+            android:id="@+id/btnMinus"
             style="@style/ButtonStyle"
             android:background="@drawable/side_button_background"
             android:text="-" />
@@ -107,18 +120,22 @@
         android:weightSum="4">
 
         <Button
+            android:id="@+id/btnOne"
             style="@style/ButtonStyle"
             android:text="1" />
 
         <Button
+            android:id="@+id/btnTwo"
             style="@style/ButtonStyle"
             android:text="2" />
 
         <Button
+            android:id="@+id/btnThree"
             style="@style/ButtonStyle"
             android:text="3" />
 
         <Button
+            android:id="@+id/btnMultiply"
             style="@style/ButtonStyle"
             android:background="@drawable/side_button_background"
             android:text="*" />
@@ -134,15 +151,18 @@
         android:weightSum="4">
 
         <Button
+            android:id="@+id/btnZero"
             style="@style/ButtonStyle"
             android:layout_weight="2"
             android:text="0" />
 
         <Button
+            android:id="@+id/btnDot"
             style="@style/ButtonStyle"
             android:text="." />
 
         <Button
+            android:id="@+id/btnEquals"
             style="@style/ButtonStyle"
             android:background="@drawable/equal_button_background"
             android:text="=" />
